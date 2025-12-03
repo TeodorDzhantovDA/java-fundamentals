@@ -1,9 +1,9 @@
 # Task 2: Temperature Converter
 
 ## Time Spent
-- Research: [?]
-- Code: [?]
-- Documentation: [?]
+- Research: 45
+- Code: 20
+- Documentation: 20
 ## Research: Number Formatting
 
 ### Ways to Round Numbers in Java
