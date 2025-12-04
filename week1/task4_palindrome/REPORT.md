@@ -1,9 +1,9 @@
 # Task 4: Palindrome Checker
 
 ## Time Spent
-- Research: [?]
-- Code: [?]
-- Documentation: [?]
+- Research: 45 min
+- Code: 1.5 hour
+- Documentation: 30 min
 - 
 ## Research: String Methods
 ### Useful String Methods
