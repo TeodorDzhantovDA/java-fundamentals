@@ -53,8 +53,10 @@ Then I realized that this will not work after debugging and checking the actual 
 
 ## What Was Most Difficult
 Even thought I know about the existence of these methods and their usage, most difficult part was to think of how to 
-use it correctly, to create the algorithm of solving the problem.
+use it correctly, to create the right syntax for the algorithm.
+
 ## Questions / Unclear Points
-[minimum 1]
+Is it better solution (best practice) to make the input string to array and to reverse it, then to return back to string and compare the input and the result if they are equal?
+
 ## Sources
 https://www.w3schools.com/java/java_ref_string.asp

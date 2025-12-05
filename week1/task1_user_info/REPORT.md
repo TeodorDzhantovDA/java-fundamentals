@@ -52,7 +52,7 @@ Changed age type to String and tried to calculate age × 2.
 Result: It worked, which confused me a bit. 
 
 ## Questions / Unclear Points
-Is it the concatenting at the output that covered the case with age as a string? 
+Is it the concatenating at the output that covered the case with age as a string? 
 
 ## Sources
 https://www.geeksforgeeks.org/java/java-data-types/

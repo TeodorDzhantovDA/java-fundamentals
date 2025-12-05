@@ -37,7 +37,8 @@ Calculating more accurate values have to be done with double or decimal for prec
 Formulas for calculating Celsius to Fahrenheit and Kelvins
 
 ## Questions / Unclear Points
-
+Not very clear, why if the example above uses `C * 9 / 5 + 32` instead of `C * 9.0 / 5.0 + 32`, as the first one uses integer division which can lead to loss of precision. 
+Is this loss of precision the reason the result with integers to be the same?
 
 ## Sources
 https://sentry.io/answers/round-a-number-to-n-decimal-places-in-java/#:~:text=The%20DecimalFormat%20class%20is%20better,precise%20and%20reusable%20rounding%20methods.
