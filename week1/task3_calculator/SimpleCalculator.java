@@ -12,55 +12,45 @@ public class SimpleCalculator {
 
         while (!operationInput.equals("End")) {
 
-            boolean isValidOperation =
-                    operationInput.equals("+") ||
-                            operationInput.equals("-") ||
-                            operationInput.equals("*") ||
-                            operationInput.equals("/");
-
-            if (!isValidOperation) {
-                System.out.println("Unknown operation");
-                return;
-            }
-
             double result = 0;
 
             switch (operationInput) {
                 case "+":
                     result = numA + numB;
                     break;
+
                 case "-":
                     result = numA - numB;
                     break;
+
                 case "*":
                     result = numA * numB;
                     break;
+
                 case "/":
-                    if (numA == 0 || numB == 0) {
+                    if (numB == 0) {
                         System.out.println("Division by zero is not allowed");
                         return;
                     }
                     result = numA / numB;
                     break;
+
+                default:
+                    // Handles ANY unknown operation
+                    System.out.println("Unknown operation");
+                    return;
             }
+
             System.out.println(result);
+
+            // Read next operation
             operationInput = scanner.nextLine();
 
             if (operationInput.equals("End")) {
                 return;
             }
 
-            isValidOperation =
-                    operationInput.equals("+") ||
-                            operationInput.equals("-") ||
-                            operationInput.equals("*") ||
-                            operationInput.equals("/");
-
-            if (!isValidOperation) {
-                System.out.println("Unknown operation");
-                return;
-            }
-
+            // Read next number ONLY if operation is valid
             numB = Double.parseDouble(scanner.nextLine());
             numA = result;
         }
